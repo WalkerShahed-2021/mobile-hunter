@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phone Hunter</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <!-- Main section -->
     <main>
-        <section class="container">
-            <h1 class="title-h1">Phone hunter</h1>
-            <div class="box">
-                    <input type="text" placeholder="Search phone..">
-                    <input type="submit" name="" value="search">
-            </div>
-        </section>
+      <section class="container">
+        <div>
+             <p id="Error-Messege">something went wroung</p>
+        </div>
+        <!-- <h1 class="title-h1">Phone hunter</h1> -->
+        <div class="box">
+            <h1 class="h1-title">Find Your Favorite Phone</h1>
+          <input type="text" id="input-filed" placeholder="Search phone.." />
+          <input
+            type="submit"
+            onclick="getInputSearch()"
+            id="input-btn"
+            name=""
+            value="search"
+          />
+        </div>
+      </section>
+      <section class="container">
+        <div class="d-flex">
+          <div id="search-reault" class="col"></div>
+          <section id="single-detiles">
+              
+          </section>
+        </div>
+      </section>
     </main>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>

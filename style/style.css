@@ -91,6 +91,7 @@ input[type="submit"]{
     padding: 30px;
     color: #fff;
     border-radius: 10px;
+    box-shadow: 5px 5px  5px 5px;
 };
 .h1-style{
     color: #fff;
@@ -103,5 +104,23 @@ input[type="submit"]{
     text-align: center;
 }
 #Error-Messege{
+    color: red;
+    display: none;
+}
+#spinner{
+    color: #fff;
+    display: none;
+    text-align: center;
+    font-size: 80px;
+}
+.error{
+    text-align: center;
+    margin-top: 120px;
+}
+#No-result{
+    color: #fff;
+    text-align: center;
+    display: none;
+    font-size: 40px;
     color: red;
 }
